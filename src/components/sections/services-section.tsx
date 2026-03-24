@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Функции
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Детали приложения</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Список задач",
+              description: "Создавайте задачи по хозяйственной части: ремонт, закупки, плановые работы — всё в одном месте",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Расписание тренировок",
+              description: "Составляйте программы тренировок, отмечайте выполненные упражнения и отслеживайте прогресс",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Уведомления и дедлайны",
+              description: "Получайте напоминания о предстоящих задачах и тренировках вовремя",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Аналитика и отчёты",
+              description: "Смотрите статистику выполнения задач и динамику спортивных показателей",
               direction: "bottom",
             },
           ].map((service, i) => (
